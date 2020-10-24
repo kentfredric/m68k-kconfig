@@ -1,0 +1,30 @@
+This repo contains a collection of "known-good-ish" kernel
+configs for m68k targets, specifically optimized for running under
+either aranym or qemu.
+
+Currently, all I have is a work-in-process omni-kernel that is only
+known to be bootable under aranym, but the objective is to first
+create some bootable kernel for aranym and qemu.
+
+*Eventually* the goal is to have *absolutely minimal* config lists
+that fully enumerate the devices needed for the specific target,
+using a specific linux kernel.
+
+Specific qemu/aranym version configs may also be necessary/useful.
+
+Also, if people have actual hardware out there, config profiles for
+those targets can be added. *Hopefully* they're mostly homogenous.
+
+## Layout
+
+```
+  <kernel-flavour>/<version>/<target>.config
+```
+
+Where `<version>` is split by major/minor/patch, etc.
+
+e.g.
+
+```bash
+vanilla/5/9/1/omni.config # Generic multi-target config for vanilla 5.9.1
+```

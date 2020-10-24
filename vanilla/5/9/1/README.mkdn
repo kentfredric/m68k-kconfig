@@ -1,0 +1,2 @@
+This directory contains configurations for building various target
+kernels for vanilla 5.9.1 sources.

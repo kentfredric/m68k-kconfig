@@ -1,0 +1,2 @@
+This directory contains configs for building various targets using
+specific versions of vanilla kernel sources.

@@ -1,0 +1,2 @@
+This directory contains configurations for building various targets
+using specific versions of gentoo-sources.
